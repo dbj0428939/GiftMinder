@@ -638,7 +638,7 @@ private func refreshAuthorizationStatus() {
 | Issue | Solution |
 |-------|----------|
 | No notifications received | 1. Verify FCM token is being sent to Firestore<br>2. Check Cloud Function logs for errors<br>3. Verify APNs certificate is properly configured<br>4. Ensure user has notifications enabled in app |
-| Notifications appear as spam | 1. Customize notification UX with better titles<br>2. Add frequency controls<br>3. Consider using notification channels on Android |
+| Notifications appear as spam | 1. Customize notification copy with clearer titles and body text<br>2. Add frequency controls<br>3. Tune notification cadence per user preference |
 | Deep linking not working | 1. Verify contactId is in notification data payload<br>2. Ensure contact exists in local store when notification tapped |
 
 ## Security Considerations

@@ -13086,7 +13086,7 @@ struct SettingsView: View {
     @State private var notificationMessage = ""
     @State private var notificationAuthorizationStatus: UNAuthorizationStatus = .notDetermined
     private let developerName = "David Johnson"
-    private let supportEmail = "support@giftminder.app"
+    private let supportEmail = "david.b.johnson.dev@gmail.com"
     private let privacyPolicyURLString = ""
     
     private var themeModeBinding: Binding<ThemeMode> {
