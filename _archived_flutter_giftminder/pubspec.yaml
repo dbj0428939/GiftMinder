@@ -1,0 +1,69 @@
+name: gift_minder
+description: A gift recommendation app that helps you find perfect gifts for family and friends.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.8.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI Components
+  cupertino_icons: ^1.0.2
+  material_color_utilities: ^0.11.1
+
+  # State Management
+  provider: ^6.1.1
+
+  # Data Persistence
+  shared_preferences: ^2.2.2
+  sqflite: ^2.3.0
+  path: ^1.8.3
+
+  # Firebase
+  firebase_core: ^2.24.2
+  cloud_firestore: ^4.13.6
+  firebase_analytics: ^10.7.4
+  firebase_auth: ^4.15.3
+
+  # JSON Serialization
+  json_annotation: ^4.8.1
+
+  # Date/Time
+  intl: ^0.18.1
+
+  # Image Handling
+  image_picker: ^1.0.4
+
+  # HTTP Requests (for future API integration)
+  http: ^1.1.0
+
+  # UUID Generation
+  uuid: ^4.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.7
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
+
+  # Add app icons and assets
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  # Custom fonts (optional)
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: assets/fonts/CustomFont-Regular.ttf
+  #       - asset: assets/fonts/CustomFont-Bold.ttf
+  #         weight: 700

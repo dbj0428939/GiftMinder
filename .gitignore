@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+
+# Xcode / Swift
+DerivedData/
+build/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcuserstate
+
+# CocoaPods
+Pods/
+
+# Swift Package Manager
+.swiftpm/
+.build/
+
+# Firebase / secrets
+GoogleService-Info.plist
+**/GoogleService-Info.plist
+
+# Node / Firebase Functions
+functions/node_modules/
+functions/lib/
+
+# Flutter (archived folder)
+_archived_flutter_giftminder/.dart_tool/
+_archived_flutter_giftminder/build/
+_archived_flutter_giftminder/.flutter-plugins
+_archived_flutter_giftminder/.flutter-plugins-dependencies
+_archived_flutter_giftminder/.packages
+_archived_flutter_giftminder/.pub-cache/
+_archived_flutter_giftminder/.pub/
+_archived_flutter_giftminder/ios/Pods/
+_archived_flutter_giftminder/macos/Pods/
